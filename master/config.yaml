@@ -1,0 +1,4 @@
+port: 5001
+reaper_get_endpoint: "http://localhost:5002/reaper/api/sites"
+keeper_get_endpoint: "http://localhost:5003/keeper/api/db_news"
+keeper_post_endpoint: "http://localhost:5003/keeper/api/db_news/add_news"

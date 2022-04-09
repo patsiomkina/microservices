@@ -1,0 +1,20 @@
+version: "3"
+services:
+  reaper:
+    build:
+      context: ./
+      dockerfile: reaper.Dockerfile
+    command: python ./reaper_rest_api.py
+    network_mode: host
+  keeper:
+    build:
+      context: ./
+      dockerfile: keeper.Dockerfile
+    command: python ./keeper_rest_api.py
+    network_mode: host
+  master:
+    build:
+      context: ./
+      dockerfile: master.Dockerfile
+    command: python ./master_rest_api.py
+    network_mode: host

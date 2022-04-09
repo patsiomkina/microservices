@@ -1,0 +1,5 @@
+feedparser~=6.0.8
+requests~=2.26.0
+Flask~=2.0.2
+PyYAML~=6.0
+dateparser~=1.1.0
